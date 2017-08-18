@@ -3552,7 +3552,8 @@ class LinesTileComponent {
           width: ceilToPhysicalPixelBoundary(width) + 'px',
           willChange: 'transform',
           transform: `translateY(${roundToPhysicalPixelBoundary(top)}px)`,
-          backgroundColor: 'inherit'
+          backgroundColor: 'inherit',
+          overflow: 'hidden'
         }
       },
       $.div({
